@@ -1,0 +1,16 @@
+@import '~normalize.css/normalize';
+
+body {
+    background-color: #FAFBFF;
+    font-family: 'Poppins', sans-serif;
+    .application {
+        max-width: 1440px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
