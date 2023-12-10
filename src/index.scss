@@ -7,10 +7,16 @@ body {
         max-width: 1440px;
         box-sizing: border-box;
         margin: 0 auto;
+        display: flex;
     }
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }

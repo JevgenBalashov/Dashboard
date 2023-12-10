@@ -1,3 +1,32 @@
-.item {
-
+.itemContainer {
+    padding: 11px 8px 11px 11px;
+    border-radius: 8px;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    &__SvgBox {
+        display: flex;
+        align-items: center;
+        gap: 14px;        
+    }
+    &:hover {
+        background-color: rgba(89, 50, 234, 1);
+        .item {
+            color: #fff;
+        }
+    }
+    .item {
+        display: block;
+        color: #9197B3;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.14px;
+        transition: color 0.3s;
+    }
 }

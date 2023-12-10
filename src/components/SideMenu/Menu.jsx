@@ -23,7 +23,6 @@ function Menu ( ) {
                 <MenuItem>Income</MenuItem>
                 <MenuItem>Promote</MenuItem>
                 <MenuItem>Help</MenuItem>
-
             </div>
         </aside>
     )
