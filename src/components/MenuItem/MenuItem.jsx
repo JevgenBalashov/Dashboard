@@ -1,4 +1,5 @@
 import styles from "./MenuItem.module.scss"
+import { Link } from "react-router-dom";
 
 import KeySvg from "../../assets/svg/key.svg"
 // import ProductSvg from "../../assets/svg/product.svg"
@@ -11,13 +12,13 @@ import ArowRightSvg from "../../assets/svg/arow-right.svg"
 
 function MenuItem(props) {
     return ( 
-        <div className={styles.itemContainer}>
+        <Link to={props.to} className={styles.itemContainer}>
             <div className={styles.itemContainer__SvgBox}>
                 <img src={KeySvg} alt="KeySvg" />
-                <a href="/" className={styles.item}>{props.children}</a>
+                <span className={styles.item}>{props.children}</span>
             </div>
             <img className={styles.SVG} src={ArowRightSvg} alt="ArowRightSvg" />
-        </div>
+        </Link>
     );
 }
 
