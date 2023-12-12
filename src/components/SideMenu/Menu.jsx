@@ -1,6 +1,7 @@
 import styles from "./Menu.module.scss";
 import Logo from "../../assets/svg/Logo.svg";
 import MenuItem from "../MenuItem/MenuItem";
+import UserImg from "../../assets/img/person.png";
 
 const menuItemsData = [
   { to: "/", label: "Dashboard" },
@@ -29,6 +30,19 @@ function Menu() {
             {item.label}
           </MenuItem>
         ))}
+      </div>
+      <div className={styles.User}>
+          <div className={styles.User__img}>
+            <img src={UserImg} alt="UserImg" />
+          </div>
+          <div className={styles.User__info}>
+            <span className={styles.User__name}>
+              Evano
+            </span>
+            <span className={styles.User__vacation}>
+              Project Manager
+            </span>
+          </div>
       </div>
     </aside>
   );

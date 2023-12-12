@@ -39,4 +39,35 @@
         gap: 40px;
         margin-top: 65px;
     }
+    .User {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-direction: row;
+        position: absolute;
+        left: 28px;
+        bottom: 78px;
+        &__info {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+        }
+        &__name {
+            color: #000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.14px;
+        }
+        &__vacation {
+            color: #757575;
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.12px;
+        }
+    }
 }
