@@ -1,6 +1,8 @@
+import NotFound from "./layout/404/NotFound";
+
 function Product() {
     return (
-        <h1>This page product under construction</h1>
+        <NotFound />
     );
 }
 

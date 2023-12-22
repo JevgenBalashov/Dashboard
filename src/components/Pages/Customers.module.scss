@@ -1,0 +1,92 @@
+
+.container {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 30px 44px 40px 38px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));
+    &__containerHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      h1 {
+        color: #000;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.22px;
+      }
+      span {
+        color: #16C098;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.14px;
+      }
+    }
+    &__searchBlock {
+        form {
+            position: relative;
+            &::before {
+                content: url(../../assets/svg/search.svg);
+                position: absolute;
+                left: 8px;
+                top: 55%;
+                transform: translateY(-50%);
+            }
+            input {
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 40px;
+                border-radius: 10px;
+                background: #F9FBFF;
+                &::placeholder {
+                    color: rgba(181, 183, 192, 1);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: normal;
+                    letter-spacing: -0.12px;
+                }
+                &:focus {
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+    .main {
+        width: 100%;
+        border-bottom: 1px solid rgba(238, 238, 238, 1);
+        &__membersList {
+            ul {
+                text-align: left;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 0 auto;
+                margin-block-start: 0px;
+                padding-inline-start: 0px;
+                margin-top: 40px;
+                padding-bottom: 14px;
+                li {
+                    color: #B5B7C0;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: -0.14px;
+                }
+            }
+        }
+        
+    }
+  }
+  

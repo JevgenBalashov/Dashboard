@@ -1,6 +1,8 @@
+import NotFound from "./layout/404/NotFound";
+
 function Promote() {
     return (
-        <h1>this Promote page under construction</h1>
+        <NotFound />
     );
 }
 

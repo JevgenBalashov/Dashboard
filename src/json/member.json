@@ -1,0 +1,410 @@
+[
+    {
+        "CustomerName": "Alice Johnson",
+        "Company": "Google",
+        "PhoneNumber": "(123) 555-6789",
+        "Email": "alice@google.com",
+        "Country": "Canada",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Bob Smith",
+        "Company": "Apple",
+        "PhoneNumber": "(456) 555-1234",
+        "Email": "bob@apple.com",
+        "Country": "Australia",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Eva Martinez",
+        "Company": "Amazon",
+        "PhoneNumber": "(789) 555-5678",
+        "Email": "eva@amazon.com",
+        "Country": "Brazil",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "David Lee",
+        "Company": "Facebook",
+        "PhoneNumber": "(987) 555-4321",
+        "Email": "david@facebook.com",
+        "Country": "France",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Grace Turner",
+        "Company": "Twitter",
+        "PhoneNumber": "(654) 555-8765",
+        "Email": "grace@twitter.com",
+        "Country": "Germany",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Peter Brown",
+        "Company": "LinkedIn",
+        "PhoneNumber": "(321) 555-9876",
+        "Email": "peter@linkedin.com",
+        "Country": "Italy",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Olivia Davis",
+        "Company": "Tesla",
+        "PhoneNumber": "(111) 555-9999",
+        "Email": "olivia@tesla.com",
+        "Country": "United Kingdom",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Samuel Rodriguez",
+        "Company": "Netflix",
+        "PhoneNumber": "(222) 555-8888",
+        "Email": "samuel@netflix.com",
+        "Country": "Spain",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Liam Wilson",
+        "Company": "Microsoft",
+        "PhoneNumber": "(555) 123-4567",
+        "Email": "liam@microsoft.com",
+        "Country": "United States",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Sophia Davis",
+        "Company": "Samsung",
+        "PhoneNumber": "(555) 234-5678",
+        "Email": "sophia@samsung.com",
+        "Country": "South Korea",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Jackson White",
+        "Company": "Sony",
+        "PhoneNumber": "(555) 345-6789",
+        "Email": "jackson@sony.com",
+        "Country": "Japan",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Emma Martinez",
+        "Company": "Intel",
+        "PhoneNumber": "(555) 456-7890",
+        "Email": "emma@intel.com",
+        "Country": "India",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Aiden Taylor",
+        "Company": "Dell",
+        "PhoneNumber": "(555) 567-8901",
+        "Email": "aiden@dell.com",
+        "Country": "Ireland",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Mia Garcia",
+        "Company": "HP",
+        "PhoneNumber": "(555) 678-9012",
+        "Email": "mia@hp.com",
+        "Country": "Mexico",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Lucas Miller",
+        "Company": "IBM",
+        "PhoneNumber": "(555) 789-0123",
+        "Email": "lucas@ibm.com",
+        "Country": "Italy",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Ava Anderson",
+        "Company": "Oracle",
+        "PhoneNumber": "(555) 890-1234",
+        "Email": "ava@oracle.com",
+        "Country": "Australia",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Logan Harris",
+        "Company": "Cisco",
+        "PhoneNumber": "(555) 901-2345",
+        "Email": "logan@cisco.com",
+        "Country": "Canada",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Isabella King",
+        "Company": "Lenovo",
+        "PhoneNumber": "(555) 012-3456",
+        "Email": "isabella@lenovo.com",
+        "Country": "Germany",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Noah Robinson",
+        "Company": "Nvidia",
+        "PhoneNumber": "(555) 987-6543",
+        "Email": "noah@nvidia.com",
+        "Country": "Russia",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Emily White",
+        "Company": "Qualcomm",
+        "PhoneNumber": "(555) 876-5432",
+        "Email": "emily@qualcomm.com",
+        "Country": "China",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "James Moore",
+        "Company": "AMD",
+        "PhoneNumber": "(555) 765-4321",
+        "Email": "james@amd.com",
+        "Country": "Mexico",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Avery Wilson",
+        "Company": "Cisco",
+        "PhoneNumber": "(555) 543-2109",
+        "Email": "avery@cisco.com",
+        "Country": "Spain",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Aria Martinez",
+        "Company": "Lenovo",
+        "PhoneNumber": "(555) 210-9876",
+        "Email": "aria@lenovo.com",
+        "Country": "Italy",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Elijah Garcia",
+        "Company": "Microsoft",
+        "PhoneNumber": "(555) 109-8765",
+        "Email": "elijah@microsoft.com",
+        "Country": "United States",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Scarlett Thomas",
+        "Company": "Apple",
+        "PhoneNumber": "(555) 876-5432",
+        "Email": "scarlett@apple.com",
+        "Country": "Canada",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Benjamin Harris",
+        "Company": "Amazon",
+        "PhoneNumber": "(555) 765-4321",
+        "Email": "benjamin@amazon.com",
+        "Country": "Brazil",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Lily Davis",
+        "Company": "Facebook",
+        "PhoneNumber": "(555) 543-2109",
+        "Email": "lily@facebook.com",
+        "Country": "France",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Henry Turner",
+        "Company": "Twitter",
+        "PhoneNumber": "(555) 210-9876",
+        "Email": "henry@twitter.com",
+        "Country": "Germany",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Stella White",
+        "Company": "LinkedIn",
+        "PhoneNumber": "(555) 109-8765",
+        "Email": "stella@linkedin.com",
+        "Country": "Spain",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Leo Brown",
+        "Company": "Tesla",
+        "PhoneNumber": "(555) 876-5432",
+        "Email": "leo@tesla.com",
+        "Country": "United Kingdom",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Hazel Anderson",
+        "Company": "Netflix",
+        "PhoneNumber": "(555) 765-4321",
+        "Email": "hazel@netflix.com",
+        "Country": "Italy",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Lucas Martinez",
+        "Company": "Microsoft",
+        "PhoneNumber": "(555) 543-2109",
+        "Email": "lucas@microsoft.com",
+        "Country": "Australia",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Mila Harris",
+        "Company": "Samsung",
+        "PhoneNumber": "(555) 210-9876",
+        "Email": "mila@samsung.com",
+        "Country": "South Korea",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Mason White",
+        "Company": "Sony",
+        "PhoneNumber": "(555) 109-8765",
+        "Email": "mason@sony.com",
+        "Country": "Japan",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Luna Davis",
+        "Company": "Intel",
+        "PhoneNumber": "(555) 876-5432",
+        "Email": "luna@intel.com",
+        "Country": "India",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Oliver Taylor",
+        "Company": "Dell",
+        "PhoneNumber": "(555) 765-4321",
+        "Email": "oliver@dell.com",
+        "Country": "Ireland",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Aria Garcia",
+        "Company": "HP",
+        "PhoneNumber": "(555) 543-2109",
+        "Email": "aria@hp.com",
+        "Country": "Mexico",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Ethan Miller",
+        "Company": "IBM",
+        "PhoneNumber": "(555) 210-9876",
+        "Email": "ethan@ibm.com",
+        "Country": "Italy",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Aurora Anderson",
+        "Company": "Oracle",
+        "PhoneNumber": "(555) 109-8765",
+        "Email": "aurora@oracle.com",
+        "Country": "Australia",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Eli Harris",
+        "Company": "Cisco",
+        "PhoneNumber": "(555) 876-5432",
+        "Email": "eli@cisco.com",
+        "Country": "Canada",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Lily King",
+        "Company": "Lenovo",
+        "PhoneNumber": "(555) 765-4321",
+        "Email": "lily@lenovo.com",
+        "Country": "Germany",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Owen Robinson",
+        "Company": "Nvidia",
+        "PhoneNumber": "(555) 543-2109",
+        "Email": "owen@nvidia.com",
+        "Country": "Russia",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Hannah White",
+        "Company": "Qualcomm",
+        "PhoneNumber": "(555) 210-9876",
+        "Email": "hannah@qualcomm.com",
+        "Country": "China",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Daniel Moore",
+        "Company": "AMD",
+        "PhoneNumber": "(555) 109-8765",
+        "Email": "daniel@amd.com",
+        "Country": "Mexico",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Avery Wilson",
+        "Company": "Cisco",
+        "PhoneNumber": "(555) 876-5432",
+        "Email": "avery@cisco.com",
+        "Country": "Spain",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Aria Martinez",
+        "Company": "Lenovo",
+        "PhoneNumber": "(555) 543-2109",
+        "Email": "aria@lenovo.com",
+        "Country": "Italy",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Elijah Garcia",
+        "Company": "Microsoft",
+        "PhoneNumber": "(555) 210-9876",
+        "Email": "elijah@microsoft.com",
+        "Country": "United States",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Scarlett Thomas",
+        "Company": "Apple",
+        "PhoneNumber": "(555) 109-8765",
+        "Email": "scarlett@apple.com",
+        "Country": "Canada",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Benjamin Harris",
+        "Company": "Amazon",
+        "PhoneNumber": "(555) 876-5432",
+        "Email": "benjamin@amazon.com",
+        "Country": "Brazil",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Lily Davis",
+        "Company": "Facebook",
+        "PhoneNumber": "(555) 543-2109",
+        "Email": "lily@facebook.com",
+        "Country": "France",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Henry Turner",
+        "Company": "Twitter",
+        "PhoneNumber": "(555) 210-9876",
+        "Email": "henry@twitter.com",
+        "Country": "Germany",
+        "Status": "Active"
+    }
+]

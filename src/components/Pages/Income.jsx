@@ -1,6 +1,8 @@
+import NotFound from "./layout/404/NotFound";
+
 function Income() {
     return (
-        <h1>this Income page under construction</h1>
+        <NotFound />
     );
 }
 

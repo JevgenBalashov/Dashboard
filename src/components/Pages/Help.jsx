@@ -1,6 +1,8 @@
+import NotFound from "./layout/404/NotFound";
+
 function Help() {
     return (
-        <h1>this help page under construction</h1>
+        <NotFound />
     );
 }
 
