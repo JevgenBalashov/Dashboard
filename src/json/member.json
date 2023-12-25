@@ -144,18 +144,10 @@
         "Status": "Inactive"
     },
     {
-        "CustomerName": "Noah Robinson",
-        "Company": "Nvidia",
-        "PhoneNumber": "(555) 987-6543",
-        "Email": "noah@nvidia.com",
-        "Country": "Russia",
-        "Status": "Active"
-    },
-    {
         "CustomerName": "Emily White",
         "Company": "Qualcomm",
         "PhoneNumber": "(555) 876-5432",
-        "Email": "emily@qualcomm.com",
+        "Email": "emily@quam.com",
         "Country": "China",
         "Status": "Inactive"
     },
@@ -187,7 +179,7 @@
         "CustomerName": "Elijah Garcia",
         "Company": "Microsoft",
         "PhoneNumber": "(555) 109-8765",
-        "Email": "elijah@microsoft.com",
+        "Email": "elijah@micros.com",
         "Country": "United States",
         "Status": "Inactive"
     },
@@ -195,7 +187,7 @@
         "CustomerName": "Scarlett Thomas",
         "Company": "Apple",
         "PhoneNumber": "(555) 876-5432",
-        "Email": "scarlett@apple.com",
+        "Email": "scarlett@ap.com",
         "Country": "Canada",
         "Status": "Active"
     },
@@ -203,7 +195,7 @@
         "CustomerName": "Benjamin Harris",
         "Company": "Amazon",
         "PhoneNumber": "(555) 765-4321",
-        "Email": "benjamin@amazon.com",
+        "Email": "benj@amazon.com",
         "Country": "Brazil",
         "Status": "Inactive"
     },
@@ -211,7 +203,7 @@
         "CustomerName": "Lily Davis",
         "Company": "Facebook",
         "PhoneNumber": "(555) 543-2109",
-        "Email": "lily@facebook.com",
+        "Email": "lily@faceb.com",
         "Country": "France",
         "Status": "Active"
     },
@@ -251,7 +243,7 @@
         "CustomerName": "Lucas Martinez",
         "Company": "Microsoft",
         "PhoneNumber": "(555) 543-2109",
-        "Email": "lucas@microsoft.com",
+        "Email": "lucas@micros.com",
         "Country": "Australia",
         "Status": "Inactive"
     },
@@ -339,7 +331,7 @@
         "CustomerName": "Hannah White",
         "Company": "Qualcomm",
         "PhoneNumber": "(555) 210-9876",
-        "Email": "hannah@qualcomm.com",
+        "Email": "hannah@quam.com",
         "Country": "China",
         "Status": "Active"
     },
@@ -387,7 +379,7 @@
         "CustomerName": "Benjamin Harris",
         "Company": "Amazon",
         "PhoneNumber": "(555) 876-5432",
-        "Email": "benjamin@amazon.com",
+        "Email": "benj@amazon.com",
         "Country": "Brazil",
         "Status": "Active"
     },
@@ -395,7 +387,7 @@
         "CustomerName": "Lily Davis",
         "Company": "Facebook",
         "PhoneNumber": "(555) 543-2109",
-        "Email": "lily@facebook.com",
+        "Email": "lily@faceb.com",
         "Country": "France",
         "Status": "Inactive"
     },
@@ -406,5 +398,53 @@
         "Email": "henry@twitter.com",
         "Country": "Germany",
         "Status": "Active"
+    },
+    {
+        "CustomerName": "Alice Johnson",
+        "Company": "Facebook",
+        "PhoneNumber": "(555) 123-4567",
+        "Email": "alice@faceb.com",
+        "Country": "United States",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Mikhail Ivanov",
+        "Company": "Google",
+        "PhoneNumber": "(555) 987-6543",
+        "Email": "mikhail@google.com",
+        "Country": "Russia",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Sophie Dupont",
+        "Company": "LinkedIn",
+        "PhoneNumber": "(555) 555-5555",
+        "Email": "sophie@linkedin.com",
+        "Country": "France",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Juan Rodriguez",
+        "Company": "WhatsApp",
+        "PhoneNumber": "(555) 777-8888",
+        "Email": "juan@whatsapp.com",
+        "Country": "Spain",
+        "Status": "Inactive"
+    },
+    {
+        "CustomerName": "Yuki Tanaka",
+        "Company": "Sony",
+        "PhoneNumber": "(555) 333-9999",
+        "Email": "yuki@sony.com",
+        "Country": "Japan",
+        "Status": "Active"
+    },
+    {
+        "CustomerName": "Lina Schmidt",
+        "Company": "Amazon",
+        "PhoneNumber": "(555) 456-7890",
+        "Email": "lina@amazon.com",
+        "Country": "Germany",
+        "Status": "Inactive"
     }
 ]

@@ -1,7 +1,22 @@
+import React, { useState } from 'react';
 import styles from "./Customers.module.scss";
+import ReactPaginate from "react-paginate";
 import { Form, Formik, Field } from "formik";
+import Users from "../../json/member.json";
+
+const USERS_PER_PAGE = 8;
+const userFields = ['CustomerName', 'Company', 'PhoneNumber', 'Email', 'Country', 'Status'];
 
 function AllCustomers() {
+    const [currentPage, setCurrentPage] = useState(0);
+
+    const handlePageClick = ({ selected }) => {
+        setCurrentPage(selected);
+    };
+
+    const offset = currentPage * USERS_PER_PAGE;
+    const paginatedUsers = Users ? Users.slice(offset, offset + USERS_PER_PAGE) : [];
+
     return (
         <section className={styles.container}>
             <div className={styles.container__containerHeader}>
@@ -28,15 +43,49 @@ function AllCustomers() {
             <div className={styles.main}>
                 <div className={styles.main__membersList}>
                     <ul className={styles.list}>
-                        <li>Customer Name</li>
-                        <li>Company</li>
-                        <li>Phone Number</li>
-                        <li>Email</li>
-                        <li>Country</li>
-                        <li>Status</li>
+                        {userFields.map((field, index) => (
+                            <li key={index}>{field}</li>
+                        ))}
+                    </ul>
+                </div>
+                <div className={styles.users}>
+                    <ul>
+                        {paginatedUsers.map((user) => (
+                            <li key={user.id}>
+                                {userFields.map((field, index) => (
+                                    <div key={index}>
+                                        {field === "Status" ? (
+                                            <span
+                                            style={{
+                                                color:
+                                                user[field] === "Active"
+                                                    ? "green"
+                                                    : "red",
+                                            }}
+                                            >
+                                            {user[field]}
+                                            </span>
+                                        ) : (
+                                            user[field]
+                                        )}
+                                    </div>
+                                ))}
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
+            <ReactPaginate
+                previousLabel={'<'}
+                nextLabel={'>'}
+                breakLabel={'...'}
+                pageCount={Math.ceil(Users.length / USERS_PER_PAGE)}
+                marginPagesDisplayed={2}
+                pageRangeDisplayed={5}
+                onPageChange={handlePageClick}
+                containerClassName={styles.pagination}
+                activeClassName={styles.active}
+            />
         </section>
     );
 }
