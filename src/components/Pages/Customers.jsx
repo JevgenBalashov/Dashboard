@@ -55,16 +55,22 @@ function AllCustomers() {
                                 {userFields.map((field, index) => (
                                     <div key={index}>
                                         {field === "Status" ? (
-                                            <span
+                                            <div className={styles.activeStatus}
                                             style={{
                                                 color:
                                                 user[field] === "Active"
-                                                    ? "green"
-                                                    : "red",
+                                                    ? "#008767"
+                                                    : "#DF0404",
+                                                width: "80px",
+                                                textAlign: "center",
+                                                border: "1px solid gray",
+                                                borderRadius: "4px",
+                                                paddingTop: "4px",
+                                                paddingBottom: "4px",
                                             }}
                                             >
                                             {user[field]}
-                                            </span>
+                                            </div>
                                         ) : (
                                             user[field]
                                         )}
