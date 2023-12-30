@@ -29,7 +29,7 @@
         "PhoneNumber": "(987) 555-4321",
         "Email": "david@facebook.com",
         "Country": "France",
-        "Status": "Inactive"
+        "Status": "Active"
     },
     {
         "CustomerName": "Grace Turner",
@@ -45,14 +45,14 @@
         "PhoneNumber": "(321) 555-9876",
         "Email": "peter@linkedin.com",
         "Country": "Italy",
-        "Status": "Inactive"
+        "Status": "Active"
     },
     {
         "CustomerName": "Olivia Davis",
         "Company": "Tesla",
         "PhoneNumber": "(111) 555-9999",
         "Email": "olivia@tesla.com",
-        "Country": "United Kingdom",
+        "Country": "UK",
         "Status": "Active"
     },
     {
@@ -93,7 +93,7 @@
         "PhoneNumber": "(555) 456-7890",
         "Email": "emma@intel.com",
         "Country": "India",
-        "Status": "Inactive"
+        "Status": "Active"
     },
     {
         "CustomerName": "Aiden Taylor",
@@ -117,7 +117,7 @@
         "PhoneNumber": "(555) 789-0123",
         "Email": "lucas@ibm.com",
         "Country": "Italy",
-        "Status": "Active"
+        "Status": "Inactive"
     },
     {
         "CustomerName": "Ava Anderson",
@@ -133,7 +133,7 @@
         "PhoneNumber": "(555) 901-2345",
         "Email": "logan@cisco.com",
         "Country": "Canada",
-        "Status": "Active"
+        "Status": "Inactive"
     },
     {
         "CustomerName": "Isabella King",
@@ -173,7 +173,7 @@
         "PhoneNumber": "(555) 210-9876",
         "Email": "aria@lenovo.com",
         "Country": "Italy",
-        "Status": "Active"
+        "Status": "Inactive"
     },
     {
         "CustomerName": "Elijah Garcia",
@@ -228,7 +228,7 @@
         "Company": "Tesla",
         "PhoneNumber": "(555) 876-5432",
         "Email": "leo@tesla.com",
-        "Country": "United Kingdom",
+        "Country": "UK",
         "Status": "Inactive"
     },
     {
@@ -245,7 +245,7 @@
         "PhoneNumber": "(555) 543-2109",
         "Email": "lucas@micros.com",
         "Country": "Australia",
-        "Status": "Inactive"
+        "Status": "Active"
     },
     {
         "CustomerName": "Mila Harris",
@@ -285,7 +285,7 @@
         "PhoneNumber": "(555) 543-2109",
         "Email": "aria@hp.com",
         "Country": "Mexico",
-        "Status": "Active"
+        "Status": "Inactive"
     },
     {
         "CustomerName": "Ethan Miller",
@@ -325,7 +325,7 @@
         "PhoneNumber": "(555) 543-2109",
         "Email": "owen@nvidia.com",
         "Country": "Russia",
-        "Status": "Inactive"
+        "Status": "Active"
     },
     {
         "CustomerName": "Hannah White",

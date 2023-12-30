@@ -11,12 +11,18 @@
     &__SvgBox {
         display: flex;
         align-items: center;
-        gap: 14px;        
+        gap: 14px;       
+        svg {
+            transition: filter 0.3s;
+        } 
     }
     &:hover {
         background-color: rgba(89, 50, 234, 1);
         .item {
             color: #fff;
+        }
+        &__SvgBox img {
+            fill: #fff;
         }
     }
     .item {

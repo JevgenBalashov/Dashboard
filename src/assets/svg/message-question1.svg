@@ -1,10 +1,10 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="24" height="24" fill="black"/>
+<rect width="24" height="24" fill="none"/>
 <g id="Dashboard" clip-path="url(#clip0_0_1)">
-<rect width="1440" height="1198" transform="translate(-39 -459)" fill="#FAFBFF"/>
+<rect width="1440" height="1198" transform="translate(-39 -459)" fill=""/>
 <g id="Side Menu">
 <g id="Rectangle 14" filter="url(#filter0_d_0_1)">
-<rect x="-39" y="-459" width="306" height="1198" fill="white"/>
+<rect x="-39" y="-459" width="306" height="1198" fill="none"/>
 </g>
 <g id="List Menu">
 <g id="message-question 1">
@@ -27,7 +27,7 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
 </filter>
 <clipPath id="clip0_0_1">
-<rect width="1440" height="1198" fill="white" transform="translate(-39 -459)"/>
+<rect width="1440" height="1198" fill="none" transform="translate(-39 -459)"/>
 </clipPath>
 </defs>
 </svg>

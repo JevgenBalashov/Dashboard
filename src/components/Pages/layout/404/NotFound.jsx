@@ -7,7 +7,7 @@ function NotFound() {
                 <h2 className={styles.container__NFtitle}>
                     This page is not available, please come back later.
                 </h2>
-                <span>come to customers page</span>
+                <span>please, come to customers page</span>
             </div>
         </section>
     );
