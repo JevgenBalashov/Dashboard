@@ -98,7 +98,7 @@ function AllCustomers() {
                     breakLabel={'...'}
                     pageCount={Math.ceil(Users.length / USERS_PER_PAGE)}
                     marginPagesDisplayed={2}
-                    pageRangeDisplayed={1}
+                    pageRangeDisplayed={5}
                     onPageChange={handlePageClick}
                     containerClassName={styles.pagination}
                     activeClassName={styles.active}
