@@ -1,3 +1,45 @@
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    li {
+        display: inline-block;
+        margin: 0 6px;
+        cursor: pointer;
+        a {
+            font-size: 12px;
+            padding: 5px 9px;
+            text-decoration: none;
+            border-radius: 4px;
+            border: 1px solid #EEE;
+            background: #F5F5F5;
+            box-sizing: border-box;
+        }
+    }
+  
+    .active {
+      a {
+        background-color: rgba(89, 50, 234, 1);
+        color: #fff;
+        border: none;
+      }
+    }
+}
+.Paginate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.DataIfno {
+    color: #B5B7C0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
 
 .container {
     width: 100%;
@@ -62,109 +104,160 @@
         }
     }
     .main {
+       table {
+        font-size: 14px;
+        margin-top: 40px;
+        border-collapse: collapse;
+        text-align: left;
         width: 100%;
-        &__membersList {
-            ul {
-                text-align: left;
-                display: grid;
-                grid-template-columns: repeat(6, 1fr);
-                justify-content: space-between;
-                margin: 0 auto;
-                margin-block-start: 0px;
-                padding-inline-start: 0px;
-                margin-top: 40px;
-                padding-bottom: 14px;
-                border-bottom: 1px solid rgba(238, 238, 238, 1);
-                li {
+        thead {
+            tr {
+                th {
                     color: #B5B7C0;
-                    font-size: 14px;
                     font-style: normal;
                     font-weight: 500;
                     line-height: normal;
                     letter-spacing: -0.14px;
-                    text-align: left;
                 }
-                li:nth-last-child(2) {
-                    padding-left: 60px;
-                }
-                li:last-child {
-                    text-align: right;
-                    // margin-right: 55px;
-                }
+            }
+            th, td {
+                padding: 16px 0 16px 0;
+                border-bottom: 1px solid #EEE;
+                text-align: left;
+            }
+            th:last-child {
+                text-align: center;
+            }
+        }
+        tbody {
+            th, td {
+                padding: 16px 0px;
+                border-bottom: 1px solid #EEE;
+                text-align: left;
+            }
+        }
+       }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .main {
+        table {
+            thead {
+                font-size: 10px;
             }
         }
     }
+}
 
-    
-    .users {
-        max-width: 968px;
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        li {
-            padding: 24px 0;
-            font-size: 14px;
-            border-bottom: 1px solid #EEE;
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-        }
-        li > div {
-            text-align: left;
-        }
-        li > div:nth-last-child(2) {
-            text-align: left;
-            padding-left: 60px;
-        }
-        li > div:last-child {
-            text-align: right;
-            width: 80px;
-            padding-left: 80px;
+@media only screen and (max-width: 1200px) {
+    .main{
+        table {
+            font-size: 12px;
+            thead {
+                th:nth-child(3) {
+                    display: none;
+                }
+                th:nth-last-child(2) {
+                    display: none;
+                }
+            }
+            tbody {
+                font-size: 12px;
+                td:nth-child(3) {
+                    display: none;
+                }
+                td:nth-last-child(2) {
+                    display: none;
+                }
+            }
         }
     }
     .Paginate {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 30px;
+        flex-direction: column;
     }
-    .DataIfno {
-        color: #B5B7C0;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: -0.14px;
-    }
+}
 
-    .pagination {
-        display: flex;
-        justify-content: flex-end;
-        list-style: none;
-        padding: 0;
-        li {
-            display: inline-block;
-            margin: 0 12px;
-            cursor: pointer;
-            a {
-                font-size: 12px;
-                padding: 5px 9px;
-                text-decoration: none;
-                border-radius: 4px;
-                border: 1px solid #EEE;
-                background: #F5F5F5;
-                box-sizing: border-box;
+@media only screen and (max-width: 880px) {
+    .main {
+        table {
+            thead {
+                tr {
+                    th {
+                        font-size: 8px;
+                    }
+                }
+            }
+            tbody {
+                font-size: 10px;
             }
         }
-      
-        .active {
-          a {
-            background-color: rgba(89, 50, 234, 1);
-            color: #fff;
-            border: none;
-          }
+    } 
+}
+
+@media only screen and (max-width: 766px) {
+    .container {
+        &__containerHeader {
+            flex-direction: column;
+            gap: 15px;
+            h1 {
+                font-size: 16px;
+            }
+            span {
+                font-size: 10px;
+            }
         }
-      }
-  }
-  
+        &__searchBlock {
+            form {
+                input {
+                    border: none;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    width: 50px;
+                    transition: all 0.3s ease-in-out;
+                    &::placeholder {
+                        font-size: 10px;
+                    }
+                    &:focus {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+    .Paginate {
+        .pagination {
+            li {
+                margin: 0 3px;
+                a {
+                    padding: 3px 7px;
+                }
+            }
+        }
+        .DataIfno {
+            font-size: 10px;
+        }
+
+    }
+    .main {
+        table {
+            thead {
+                th:nth-last-child(3) {
+                    display: none;
+                }
+            }
+            tbody {
+                td:nth-last-child(3) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 432px) {
+    .container {
+        padding: 15px 22px 20px 18px;
+    }
+}

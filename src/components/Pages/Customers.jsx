@@ -27,13 +27,12 @@ function AllCustomers() {
     const offset = currentPage * USERS_PER_PAGE;
     const paginatedUsers = Users ? Users.slice(offset, offset + USERS_PER_PAGE) : [];
     
-
     return (
         <section className={styles.container}>
             <div className={styles.container__containerHeader}>
                 <div className={styles.container__HeaderTitle}>
                     <h1>All Customers</h1>
-                    <span>All Members</span>
+                    <span>Active Members</span>
                 </div>
                 <div className={styles.container__searchBlock}>
                     <Formik
@@ -52,51 +51,42 @@ function AllCustomers() {
                 </div>
             </div>
             <div className={styles.main}>
-                <div className={styles.main__membersList}>
-                    <ul className={styles.list}>
-                        {userFields.map((field, index) => (
-                            <li key={index}>{field}</li>
-                        ))}
-                    </ul>
-                </div>
-                <div className={styles.users}>
-                    <ul>
+                <table className={styles.table}>
+                    <thead className={styles.tableHeader}>
+                        <tr>
+                            {userFields.map((field, index) => (
+                                <th key={index}>{field}</th>
+                            ))}
+                        </tr>
+                    </thead>
+                    <tbody className={styles.tableBody}>
                         {paginatedUsers.map((user) => (
-                            <li key={user.id}>
+                            <tr key={user.id}>
                                 {userFields.map((field, index) => (
-                                    <div key={index}>
+                                    <td key={index}>
                                         {field === "Status" ? (
                                             <div className={styles.activeStatus}
-                                            style={{
-                                                color:
-                                                user[field] === "Active"
-                                                    ? "#008767"
-                                                    : "#DF0404",
-                                                background:
-                                                    user[field] === "Active"
-                                                    ? "rgba(22, 192, 152, 0.38)"
-                                                    : "#FFC5C5",
-                                                border: user[field] === "Active"
-                                                ? "1px solid #00B087"
-                                                : "1px solid #DF0404",
-                                                width: "80px",
-                                                textAlign: "center",
-                                                borderRadius: "4px",
-                                                paddingTop: "4px",
-                                                paddingBottom: "4px",
-                                            }}
+                                                style={{
+                                                    color: user[field] === "Active" ? "#008767" : "#DF0404",
+                                                    background: user[field] === "Active" ? "rgba(22, 192, 152, 0.38)" : "#FFC5C5",
+                                                    border: user[field] === "Active" ? "1px solid #00B087" : "1px solid #DF0404",
+                                                    textAlign: "center",
+                                                    borderRadius: "4px",
+                                                    paddingTop: "4px",
+                                                    paddingBottom: "4px",
+                                                }}
                                             >
-                                            {user[field]}
+                                                {user[field]}
                                             </div>
                                         ) : (
                                             user[field]
                                         )}
-                                    </div>
+                                    </td>
                                 ))}
-                            </li>
+                            </tr>
                         ))}
-                    </ul>
-                </div>
+                    </tbody>
+                </table>
             </div>
             <div className={styles.Paginate}>
                 <p className={styles.DataIfno}>
@@ -108,7 +98,7 @@ function AllCustomers() {
                     breakLabel={'...'}
                     pageCount={Math.ceil(Users.length / USERS_PER_PAGE)}
                     marginPagesDisplayed={2}
-                    pageRangeDisplayed={5}
+                    pageRangeDisplayed={1}
                     onPageChange={handlePageClick}
                     containerClassName={styles.pagination}
                     activeClassName={styles.active}

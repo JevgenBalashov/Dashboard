@@ -13,3 +13,32 @@
     line-height: normal;
     margin-bottom: 51px;
 }
+
+@media only screen and (max-width: 766px) {
+    .layout {
+        padding-top: 30px;
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+    .title {
+        font-size: 16px;
+        
+    }
+}
+
+@media only screen and (max-width: 432px) {
+    .layout {
+        padding: 30px 31px 0 31px;
+    }
+    .title {
+        font-size: 14px;
+        margin-bottom: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .layout {
+        padding: 30px 16px 0 16px;
+    }
+}

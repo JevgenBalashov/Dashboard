@@ -36,3 +36,22 @@
         transition: color 0.3s;
     }
 }
+@media only screen and (max-width: 766px) {
+    .itemContainer {
+        padding: 9px 6px 9px 6px;
+        &__SvgBox {
+            gap: 10px;
+        }
+    }
+    .item {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .itemContainer {
+        .item {
+            display: none;
+        }
+    }
+}
